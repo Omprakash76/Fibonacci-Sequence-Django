@@ -10,7 +10,7 @@
         <form action = "result", align = "center"  method = "post">
             <div id = "id1">
                 {% csrf_token %}
-                <h4> Enter N : <input type = "number" name = "num" required/></h4>
+                <h4> Enter N : <input type = "number" min = 1 max = 100000 name = "num" required/></h4>
                 <button type = "submit">Get Number</button>
             </div>
         </form>
