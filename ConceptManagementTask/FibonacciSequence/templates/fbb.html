@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FibonacciSeries</title>
+
+</head>
+    <body bgcolor="#8DDCD9">
+        <h1 align = "center">Welcomwe To Fabonicci Sequence World</h1><br>
+        <form action = "result", align = "center"  method = "post">
+            <div id = "id1">
+                {% csrf_token %}
+                <h4> Enter N : <input type = "number" name = "num" required/></h4>
+                <button type = "submit">Get Number</button>
+            </div>
+        </form>
+    </body>
+</html>
